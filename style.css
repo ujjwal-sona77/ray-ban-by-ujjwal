@@ -1,0 +1,164 @@
+@font-face {
+    font-family: kajiro;
+    src: url(./Kajiro\ Bold.woff2);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.wa {
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    padding: 15px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lnav,
+.rnav {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.lnav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: .9vw;
+    font-weight: 700;
+    font-family: "gilroy";
+    pointer-events: all;
+}
+
+.lnav img {
+    width: 7vw;
+    height: 10vh;
+    position: relative;
+}
+
+.rnav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: .9vw;
+    font-weight: 700;
+    font-family: "gilroy";
+    pointer-events: all;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+
+.lhero {
+    min-width: 50%;
+}
+
+.lhero .elem {
+    height: 9vw;
+    overflow: hidden;         
+    position: relative;
+}
+
+.lhero .elem h1 {
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;   
+    font-size: 9.2vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.lhero .elem h1:nth-child(1) {
+    top: 0;
+}
+
+
+.lhero button {
+    padding: .8vw 2vw;
+    font-family: "kajiro";
+    font-size: 2.6vw;
+    margin-top: 3vh;
+    pointer-events: all;
+}
+
+.rhero {
+    width: 17%;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.rhero p {
+    font-size: .8vw;
+    text-align: right;
+    font-weight: 500;
+    /* margin-bottom: 8vh; */
+}
+
+.rhero .picdiv {
+    width: 100%;
+    height: 19vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    background-image: url(potrait.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.rhero p:nth-child(3) {
+    margin-bottom: 6.5vh;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+}
+
+.back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
