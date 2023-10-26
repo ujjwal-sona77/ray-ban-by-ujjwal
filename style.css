@@ -115,12 +115,16 @@ body {
 }
 
 
-.lhero button {
+.lhero a button {
     padding: .8vw 2vw;
     font-family: "kajiro";
-    font-size: 2.6vw;
+    font-size: 3.5vw;
     margin-top: 3vh;
     pointer-events: all;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-decoration: none;
+    width: 170px;
 }
 
 .rhero {
