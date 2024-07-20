@@ -2,3 +2,6 @@
 
 # Ray Ban By Me
 
+
+# About
+<h1>This website is made for an competition. This id not fully functional website 
